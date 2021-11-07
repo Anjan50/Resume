@@ -1,0 +1,361 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!--========== BOX ICONS ==========-->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/boxicons@latest/css/boxicons.min.css">
+
+    <!--========== CSS ==========-->
+    <link rel="stylesheet" href="assets/css/styles.css">
+
+    <title>Anjan's Responsive resume</title>
+</head>
+
+<body>
+    <!--========== HEADER ==========-->
+    <header class="l-header" id="header">
+        <nav class="nav bd-container">
+            <a href="" class="nav__logo">Anjan</a>
+
+            <div class="nav__menu" id="nav-menu">
+                <ul class="nav__list">
+                    <li class="nav__item">
+                        <a href="#home" class="nav__link active-link">
+                            <i class='bx bx-home'></i>Home
+                        </a>
+                    </li>
+
+                    <li class="nav__item">
+                        <a href="#profile" class="nav__link">
+                            <i class="bx bx-user"></i>Profile
+                        </a>
+                    </li>
+
+                    <li class="nav__item">
+                        <a href="#education" class="nav__link">
+                            <i class="bx bx-book"></i>Education
+                        </a>
+                    </li>
+
+                    <li class="nav__item">
+                        <a href="#skills" class="nav__link">
+                            <i class="bx bx-receipt"></i>Skills
+                        </a>
+                    </li>
+
+                    <li class="nav__item">
+                        <a href="#experience" class="nav__link">
+                            <i class="bx bx-briefcase-alt"></i>Experience
+                        </a>
+                    </li>
+
+                    <li class="nav__item">
+                        <a href="#certificates" class="nav__link">
+                            <i class="bx bx-award"></i>Certifications
+                        </a>
+                    </li>
+
+                    <li class="nav__item">
+                        <a href="#references" class="nav__link">
+                            <i class='bx bxl-visual-studio'></i>Projects
+                        </a>
+                    </li>
+                </ul>
+            </div>
+
+            <div class="nav__toggle" id="nav-toggle">
+                <i class='bx bx-grid-alt'> </i>
+            </div>
+        </nav>
+    </header>
+
+    <main class="l-main bd-container">
+        <!-- All elements within this div, is generated in PDF -->
+        <div class="resume" id="area-cv">
+            <div class="resume__left">
+                <!--========== HOME ==========-->
+                <section class="home" id="home">
+                    <div class="home__container section bd-grid">
+                        <div class="home__data bd-grid">
+                            <img src="assets/img/perfil.jpg" alt="" class="home__img">
+                            <h1 class="home__title">ANJAN DIYORA</h1>
+                            <h3 class="home__profession">Web developer</h3>
+
+                            <!-- Button to generate and download the pdf. Available for desktop. -->
+                            <div>
+                                <a download="" href="assets/pdf/ResumeCv.pdf" class="home__button-movil">Download</a>
+                            </div>
+
+                        </div>
+                        <div class="home__address bd-grid">
+                            <span class="home__information">
+                                <i class='bx bx-map home__icon'></i> Surat, Gujarat, India.
+                            </span>
+                            <span class="home__information">
+                                <i class='bx bx-envelope home__icon'></i> anjanjee11@gmail.com
+                            </span>
+                            <span class="home__information">
+                                <i class='bx bx-phone home__icon'></i> +91 92650 27755
+                            </span>
+                        </div>
+                    </div>
+                    <!-- Theme change button -->
+                    <i class="bx bx-moon change-theme" title="Theme" id="theme-button"></i>
+
+                    <!-- Button to generate and download the pdf. Available for desktop. -->
+                    <i class='bx bx-download generate-pdf' title="Generate PDF" id="resume-button"></i>
+                </section>
+
+
+
+
+                <!--========== SOCIAL ==========-->
+                <section class="social section">
+                    <h2 class="section-title">SOCIAL</h2>
+                    <div class="social__container bd-grid">
+                        <a href="https://www.linkedin.com/in/anjandiyora/" target="_blank" class="social__link">
+                            <i class="bx bxl-linkedin-square social__icon"></i>@anjan-diyora
+                        </a>
+                        <a href="https://twitter.com/DiyoraAnjan" target="_blank" class="social__link">
+                            <i class='bx bxl-twitter social__icon'></i>@DiyoraAnjan
+                        </a>
+                        <a href="https://github.com/Anjan50" target="_blank" class="social__link">
+                            <i class='bx bxl-github social__icon'></i>@Anjan50
+                        </a>
+                    </div>
+                </section>
+
+                <!--========== PROFILE ==========-->
+                <section class="profile section" id="profile">
+                    <h2 class="section-title">Profile</h2>
+                    <p class="profile__description">Third -year Computer science student, currently doingproblem-solving with c++. I am aware of Foundational programming C, C++ & Java.</p>
+
+                </section>
+
+                <!--========== EDUCATION ==========-->
+                <section class="education section" id="education">
+                    <h2 class="section-title">Education</h2>
+                    <div class="education__container bd-grid">
+                        <div class="education__content">
+                            <div class="education__time">
+                                <span class="education__rounder"></span>
+                                <span class="education__line"></span>
+                            </div>
+                            <div class="education__data bd-grid">
+                                <h3 class="education__title">B.Tech | Computer Science</h3>
+                                <span class="education__studies">Parul University,Vadodara,Gujarat.</span>
+                                <span class="education__year">2019-2023</span>
+                            </div>
+                        </div>
+
+                        <div class="education__content">
+                            <div class="education__time">
+                                <span class="education__rounder"></span>
+                                <!-- <span class="education__line"></span> -->
+                            </div>
+
+                            <div class="education__data bd-grid">
+                                <h3 class="education__title">Primary/Secondary Schooling</h3>
+                                <span class="education__studies">Shree Swaminarayan Gurukul Vidhyalaya,surat.</span>
+                                <span class="education__year">2006-2019</span>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+
+
+                <!--========== SKILLS  ==========-->
+                <section class="skills section" id="skills">
+                    <h2 class="section-title">Skills</h2>
+
+                    <div class="skills__content bd-grid">
+                        <ul class="skills__data">
+                            <li class="skills__name">
+                                <span class="skills__circle"></span> HTML/CSS/JS
+                            </li>
+
+                            <li class="skills__name">
+                                <span class="skills__circle"></span> Git/GitHub
+                            </li>
+
+                            <li class="skills__name">
+                                <span class="skills__circle"></span> GCP/Azure </li>
+
+                            <li class="skills__name">
+                                <span class="skills__circle"></span> Data Structure & Algo.
+                            </li>
+
+
+                        </ul>
+
+                        <ul class="skills__data">
+                            <li class="skills__name">
+                                <span class="skills__circle"></span> Problem Solving
+                            </li>
+
+                            <li class="skills__name">
+                                <span class="skills__circle"></span> ReactJS
+                            </li>
+
+                            <li class="skills__name">
+                                <span class="skills__circle"></span> Blockchain
+                            </li>
+
+                            <li class="skills__name">
+                                <span class="skills__circle"></span> Writer
+                            </li>
+                        </ul>
+                    </div>
+                </section>
+
+            </div>
+
+            <div class="resume__right">
+                <!--========== EXPERIENCE ==========-->
+                <section class="experience section" id="experience">
+                    <h2 class="section-title">Experience</h2>
+                    <div class="experience__container bd-grid">
+                        <div class="experience__content">
+                            <div class="experience__time">
+                                <span class="experience__rounder"></span>
+                                <span class="experience__line"></span>
+                            </div>
+
+                            <div class="experience__data bd-grid">
+                                <h3 class="experience__title">Tech Blogger</h3>
+                                <span class="experience__company">Inphynity.tech | From march 2021 to present</span>
+                                <p class="experience__description">I believe in learn and share things via technical Blog, where students will aware about technical things.</p>
+                            </div>
+                        </div>
+
+                        <div class="experience__content">
+                            <div class="experience__time">
+                                <span class="experience__rounder"></span>
+                                <span class="experience__line"></span>
+                            </div>
+
+                            <div class="experience__data bd-grid">
+                                <h3 class="experience__title">Campaign Manager</h3>
+                                <span class="experience__company">Google Developer Student Club | From 2020 to 2021 </span>
+                                <p class="experience__description">Influence students about our community's events and Activities.</p>
+                            </div>
+                        </div>
+
+                        <div class="experience__content">
+                            <div class="experience__time">
+                                <span class="experience__rounder"></span>
+                                <!-- <span class="experience__line"></span> -->
+                            </div>
+
+                            <div class="experience__data bd-grid">
+                                <h3 class="experience__title">Event Coordinator</h3>
+                                <span class="experience__company">Projection 2021</span>
+                                <p class="experience__description">CodeMap (Technical Event)- Aware students about coding stuff
+                                </p>
+                            </div>
+                        </div>
+
+                    </div>
+                </section>
+
+                <!--========== CERTIFICATES ==========-->
+                <section class="certificate section" id="certificates">
+                    <h2 class="section-title">Certificates</h2>
+
+                    <div class="certificate__container bd-grid">
+                        <div class="certificate__content">
+                            <h3 class="certificate__title">Google IT Support Proffessional</h3>
+                            <p class="certificate__discription">Certification competent in foundational skills, including troubleshooting and customer service, networking, operating systems, system administration, and security</p>
+                        </div>
+
+                        <div class="certificate__content">
+                            <h3 class="certificate__title">Google Cloud Skill Badge</h3>
+                            <p class="certificate__discription">A skill badge is a digital badge awarded by Google Cloud in recognition of your proven cloud skills.</div>
+                    </div>
+                </section>
+
+                <!--========== PROJECTS ==========-->
+                <section class="references section" id="references">
+                    <h2 class="section-title">Projects</h2>
+
+                    <div class="references__container bd-grid">
+                        <div class="references__content bd-grid">
+                            <h3 class="references__title">Assignment Writer</h3>
+                            <span class="references_subtitle">Hand writing tools</span>
+                            <ul class="references__content">
+                                <a download="" href="https://github.com/Anjan50" target="_blank" class="project_button">Live</a>
+                                <a download="" href="https://github.com/Anjan50" target="_blank" class="project_button">Source Code</a>
+                            </ul>
+                        </div>
+
+                        <div class="references__content bd-grid">
+                            <h3 class="references__title">Covid Runner</h3>
+                            <span class="references_subtitle">Game</span>
+                            <ul class="references__content">
+                                <a download="" href="https://github.com/Anjan50" target="_blank" class="project_button">Live</a>
+                                <a download="" href="https://github.com/Anjan50" target="_blank" class="project_button">Source Code</a>
+                            </ul>
+                        </div>
+                    </div>
+                </section>
+
+                <!--========== LANGUAGES ==========-->
+                <section class="languages section">
+                    <h2 class="section-title">Languages</h2>
+
+                    <div class="languages__container">
+                        <ul class="languages__content bd-grid">
+                            <li class="languages__name">
+                                <span class="languages__circle"></span> English
+                            </li>
+                            <li class="languages__name">
+                                <span class="languages__circle"></span> Hindi
+                            </li>
+                            <li class="languages__name">
+                                <span class="languages__circle"></span> Gujarati
+                            </li>
+                        </ul>
+                    </div>
+                </section>
+
+                <!--========== INTERESTS ==========-->
+                <section class="interests section">
+                    <h2 class="section-title">Coding Profile</h2>
+
+                    <div class="interests__container bd-grid">
+                        <div class="interests__content">
+                            <i class='bx bxs-bar-chart-alt-2 interests__icon'></i>
+                            <span class="interests__name">Codeforces</span>
+                        </div>
+
+                        <div class="interests__content">
+                            <i class='bx bx-heading interests__icon'></i>
+                            <span class="interests__name">Hackerrank</span>
+                        </div>
+
+                        <div class="interests__content">
+                            <i class='bx bx-log-in-circle bx-flip-horizontal interests__icon'></i>
+                            <span class="interests__name">Leetcode</span>
+                        </div>
+                    </div>
+                </section>
+            </div>
+        </div>
+    </main>
+
+    <!--========== SCROLL TOP ==========-->
+    <a href="#" class="scrolltop" id="scroll-top">
+        <i class='bx bx-up-arrow-alt'></i>
+    </a>
+
+    <!--========== HTML2PDF ==========-->
+    <script src="assets/js/html2pdf.bundle.min.js"></script>
+
+    <!--========== MAIN JS ==========-->
+    <script src="assets/js/main.js"></script>
+</body>
+
+</html>
